@@ -1,14 +1,14 @@
 ### HTB_Reminiscent
 <br>
 
-##### Aufgabe:
+#### Aufgabe:
 [Die Challenge Website](https://app.hackthebox.com/challenges/Reminiscent)
 
 Verdächtiger Datenverkehr wurde von einem Recruiter-PC festgestellt. Ein Speicherauszug wurde vor der Netzwerktrennung erfasst. Der Recruiter erhielt eine E-Mail bezüglich eines Lebenslaufs. Diese E-Mail wurde wiederhergestellt. Ziel ist es, die Malware-Quelle zu finden und zu entschlüsseln, um die Flagge zu ermitteln.
 
 <br>
 
-##### Die verwendeten Tools und Techniken.
+#### Die verwendeten Tools und Techniken.
 In dieser Capture The Flag (CTF) Herausforderung liegt der Fokus auf der Nutzung des Tools **Volatility**, der Arbeit mit der Bash-Konsole und allgemeinen Konsolenoperationen. Volatility ist ein wesentliches Werkzeug in der digitalen Forensik und ermöglicht es uns, forensische Artefakte aus dem Speicher (RAM) zu extrahieren und zu analysieren. Es ist besonders nützlich bei der Untersuchung von Systemkompromittierungen, bei denen der volatile Speicher oft wertvolle Hinweise auf den Angriffsprozess liefert. Eine detaillierte Beschreibung von Volatility, seiner Hauptanwendungen und wie es speziell für diese Herausforderung genutzt wird, finden Sie in den anderen .md-Dateien dieses Repositories.
 
 Die **Bash-Konsole** ist ein mächtiges Werkzeug, das uns erlaubt, eine Vielzahl von Aufgaben effizient auszuführen. In dieser Herausforderung nutzen wir sie für verschiedene Aufgaben, einschließlich der Arbeit mit Dateien und der Ausführung von Befehlen.
@@ -19,7 +19,7 @@ Insgesamt bot diese CTF eine umfassende und praktische Einführung in einige der
 
 <br>
 
-##### Eine Zusammenfassung der Lösung
+#### Eine Zusammenfassung der Lösung
 
 Zuerst analysieren wir den Speicherauszug "flounder-pc-memdump.elf" mit Volatility. Das ist ein Tool, das uns hilft, Informationen aus dem Arbeitsspeicher eines Computers zu holen.
 
